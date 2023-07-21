@@ -7,7 +7,7 @@ import {
   Card,
   CardContent,
   CardActions,
-  Button,
+  // Button,
   IconButton,
   CardHeader,
 } from "@mui/material";
@@ -34,6 +34,7 @@ function App() {
                   <img
                     src="/dhanush.png"
                     style={{ objectFit: "fill", width: "70px", height: "auto" }}
+                    alt='img'
                   />
                 }
                 action={
@@ -74,6 +75,7 @@ function App() {
                   <img
                     src="/B2P.png"
                     style={{ objectFit: "fill", width: "auto", height: "40px" }}
+                    alt='img'
                   />
                 }
                 sx={{
@@ -117,6 +119,7 @@ function App() {
                   <img
                     src="/dhanush.png"
                     style={{ objectFit: "fill", width: "70px", height: "auto" }}
+                    alt='img'
                   />
                 }
                 sx={{ mt: "10px" }}

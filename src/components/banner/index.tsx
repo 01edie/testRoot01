@@ -10,9 +10,9 @@ import { FreeMode, Pagination, Autoplay } from "swiper";
 
 
 
-type Props = {};
+// type Props = {};
 
-export default function Banner({}: Props) {
+export default function Banner() {
   return (
     <Box  mt={1} >
       <Swiper
