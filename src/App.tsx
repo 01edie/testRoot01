@@ -46,10 +46,10 @@ function App() {
         <Grid item xs={12}>
           <Banner />
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} sx={{display:{xs:'none',md:'block'}}}>
           <Banner />
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} sx={{display:{xs:'none',md:'block'}}}>
           <Banner />
         </Grid>
         <Grid item xs={12} container spacing={2} mt={2}>
