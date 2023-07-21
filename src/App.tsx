@@ -30,14 +30,14 @@ function App() {
         }}
       >
         <Stack direction="row" gap={2} ml={2}>
-          <Button >
-            <Typography color="#fff">Dhansuh</Typography>
+          <Button size='small' >
+            <Typography sx={{fontSize:{xs:'10px', sm:'14px',md:'16px'}}} color="#fff">Dhansuh</Typography>
           </Button>
-          <Button>
-            <Typography color="#fff">BTP Live</Typography>
+          <Button size='small'>
+            <Typography sx={{fontSize:{xs:'10px', sm:'14px',md:'16px'}}} color="#fff">BTP Live</Typography>
           </Button>
-          <Button>
-            <Typography color="#fff">Home To Home</Typography>
+          <Button size='small'>
+            <Typography  sx={{fontSize:{xs:'10px', sm:'14px',md:'16px'}}} color="#fff">Home To Home</Typography>
           </Button>
         </Stack>
       </Box>
