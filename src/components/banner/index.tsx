@@ -22,7 +22,7 @@ export default function Banner() {
         pagination
         grabCursor
         autoplay={{
-          delay: 2000,
+          delay: 1500,
           pauseOnMouseEnter: true,
         }}
         loop

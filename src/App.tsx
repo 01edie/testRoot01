@@ -4,10 +4,11 @@ import {
   Grid,
   Typography,
   Box,
+  Stack,
   Card,
   CardContent,
   CardActions,
-  // Button,
+  Button,
   IconButton,
   CardHeader,
 } from "@mui/material";
@@ -20,21 +21,46 @@ import Banner from "./components/banner";
 function App() {
   return (
     <Box>
-      <Box sx={{ height: 70, bgcolor: "#3D7BF8" }} />
-      {/* 59F83D */}
-      <Grid container xs={12} p={3} spacing={2}>
+      <Box
+        sx={{
+          height: 70,
+          bgcolor: "#3D7BF8",
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
+        <Stack direction="row" gap={2} ml={2}>
+          <Button >
+            <Typography color="#fff">Dhansuh</Typography>
+          </Button>
+          <Button>
+            <Typography color="#fff">BTP Live</Typography>
+          </Button>
+          <Button>
+            <Typography color="#fff">Home To Home</Typography>
+          </Button>
+        </Stack>
+      </Box>
+      .{/* 59F83D */}
+      <Grid container xs={12} p={2} spacing={2}>
+        <Grid item xs={12}>
+          <Banner />
+        </Grid>
+        <Grid item xs={12}>
+          <Banner />
+        </Grid>
         <Grid item xs={12}>
           <Banner />
         </Grid>
         <Grid item xs={12} container spacing={2} mt={2}>
-          <Grid item xs={4}>
+          <Grid item xs={12} md={4}>
             <Card sx={{ boxShadow: 5 }}>
               <CardHeader
                 avatar={
                   <img
                     src="/dhanush.png"
                     style={{ objectFit: "fill", width: "70px", height: "auto" }}
-                    alt='img'
+                    alt="img"
                   />
                 }
                 action={
@@ -68,19 +94,19 @@ function App() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} md={4}>
             <Card sx={{ boxShadow: 5 }}>
               <CardHeader
                 avatar={
                   <img
                     src="/B2P.png"
                     style={{ objectFit: "fill", width: "auto", height: "40px" }}
-                    alt='img'
+                    alt="img"
                   />
                 }
                 sx={{
                   mt: "10px",
-                  mb:'20px'
+                  mb: "20px",
                 }}
                 action={
                   <IconButton aria-label="settings">
@@ -112,14 +138,14 @@ function App() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} md={4}>
             <Card sx={{ boxShadow: 5 }}>
               <CardHeader
                 avatar={
                   <img
                     src="/dhanush.png"
                     style={{ objectFit: "fill", width: "70px", height: "auto" }}
-                    alt='img'
+                    alt="img"
                   />
                 }
                 sx={{ mt: "10px" }}
