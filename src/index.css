@@ -1,13 +1,25 @@
-body {
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Css For styling scrollbar for whole body */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #838383;
+  border-radius: 10px;
+}
+/* To remove te file upload button on input type=file*/
+::-webkit-file-upload-button {
+  display: none;
+}
+
+html {
+  scrollbar-color: #66b3f1 #fff !important;
+  scrollbar-width: thin !important; /*auto, thin, none */
 }
