@@ -41,8 +41,8 @@ function App() {
           </Button>
         </Stack>
       </Box>
-      .{/* 59F83D */}
-      <Grid container xs={12} p={2} spacing={2}>
+      {/* 59F83D */}
+      <Grid container xs={12} p={2} >
         <Grid item xs={12}>
           <Banner />
         </Grid>
