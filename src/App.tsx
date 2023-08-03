@@ -94,15 +94,13 @@ function App() {
               <CardHeader
                 avatar={
                   <img
-                    src="/B2P.png"
-                    style={{ objectFit: "fill", width: "auto", height: "40px" }}
+                    src="/dhanush.png"
+                    style={{ objectFit: "fill", width: "70px", height: "auto" }}
                     alt="img"
                   />
                 }
-                sx={{
-                  mt: "10px",
-                  mb: "20px",
-                }}
+                sx={{ mt: "10px" }}
+                
                 action={
                   <IconButton aria-label="settings">
                     <MoreVertIcon />
