@@ -34,10 +34,10 @@ function App() {
             <Typography sx={{fontSize:{xs:'12px', sm:'14px',md:'16px'}}} color="#fff">Dhansuh</Typography>
           </Button>
           <Button size='small'>
-            <Typography sx={{fontSize:{xs:'12px', sm:'14px',md:'16px'}}} color="#fff">BTP Live</Typography>
+            <Typography sx={{fontSize:{xs:'12px', sm:'14px',md:'16px'}}} color="#fff">SSIM</Typography>
           </Button>
           <Button size='small'>
-            <Typography  sx={{fontSize:{xs:'12px', sm:'14px',md:'16px'}}} color="#fff">Home To Home</Typography>
+            <Typography  sx={{fontSize:{xs:'12px', sm:'14px',md:'16px'}}} color="#fff">H2H</Typography>
           </Button>
         </Stack>
       </Box>
@@ -46,12 +46,7 @@ function App() {
         <Grid item xs={12}>
           <Banner />
         </Grid>
-        <Grid item xs={12} sx={{display:{xs:'none',md:'block'}}}>
-          <Banner />
-        </Grid>
-        <Grid item xs={12} sx={{display:{xs:'none',md:'block'}}}>
-          <Banner />
-        </Grid>
+       
         <Grid item xs={12} container spacing={2} mt={2}>
           <Grid item xs={12} md={4}>
             <Card sx={{ boxShadow: 5 }}>
@@ -69,7 +64,7 @@ function App() {
                   </IconButton>
                 }
                 sx={{ mt: "10px" }}
-                title="Title 1"
+                title="Dhanush"
                 subheader="July 15, 2023"
               />
               <CardContent>
@@ -113,7 +108,7 @@ function App() {
                     <MoreVertIcon />
                   </IconButton>
                 }
-                title="Title 2"
+                title="SSIM"
                 subheader="June 23, 2023"
               />
               <CardContent>
@@ -154,7 +149,7 @@ function App() {
                     <MoreVertIcon />
                   </IconButton>
                 }
-                title="Title 3"
+                title="H2H"
                 subheader="July 21, 2016"
               />
               <CardContent>
