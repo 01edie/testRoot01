@@ -30,16 +30,16 @@ export default function Banner() {
         className="banner"
       >
         {/* slidesPerView attribute requiring  <= SwiperSlides/2 to be in loop */}
-        <SwiperSlide>
-            <img src='/Banner-Dhanush.jpg' style={{ objectFit: 'fill', width:'100%', height:'400px', borderRadius:'10px'}}  alt="" />
+        <SwiperSlide >
+            <img src='/dhanush1.png' style={{ objectFit: 'contain', width:'100%', height:'400px', borderRadius:'10px',backgroundColor:'#80cbc4'}}  alt="" />
             <Typography variant="h6">Caption 1</Typography>
         </SwiperSlide>
         <SwiperSlide>
-            <img src='/Banner-SSIM.jpg' style={{ objectFit: 'fill', width:'100%', height:'400px', borderRadius:'10px'}} alt="" />
+            <img src='/img2.jpg' style={{ objectFit: 'fill', width:'100%', height:'400px', borderRadius:'10px'}} alt="" />
             <Typography variant="h6">Caption 2</Typography>
         </SwiperSlide>
         <SwiperSlide>
-            <img src='/Banner-H2H.jpg' style={{ objectFit: 'fill', width:'100%', height:'400px', borderRadius:'10px'}} alt="" />
+            <img src='/img3.jpg' style={{ objectFit: 'fill', width:'100%', height:'400px', borderRadius:'10px'}} alt="" />
             <Typography variant="h6">Caption 3</Typography>
         </SwiperSlide>
       </Swiper>
